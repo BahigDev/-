@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمالي | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- الهيدر والقائمة -->
+    <header>
+        <div class="logo">موقعي الشخصي</div>
+        <nav>
+            <ul>
+                <li><a href="#about">عني</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero">
+        <h1>مرحباً، أنا <span class="highlight">مبرمج ويب</span></h1>
+        <p>أقوم ببناء وتطوير المواقع والتطبيقات الإلكترونية الحديثة.</p>
+        <a href="#projects" class="btn">عرض الأعمال</a>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="section">
+        <h2>أحدث المشاريع</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>تطبيق قائمة المهام</h3>
+                <p>تطبيق ويب لإدارة المهام اليومية مع إمكانية الحفظ المحلي.</p>
+            </div>
+            <div class="project-card">
+                <h3>موقع الطقس</h3>
+                <p>موقع لعرض درجات الحرارة والطقس باستخدام API.</p>
+            </div>
+            <div class="project-card">
+                <h3>متجر إلكتروني</h3>
+                <p>واجهة متجر بسيط لعرض المنتجات مع سلة تسوق.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="section">
+        <h2>تواصل معي</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك..." rows="5" required></textarea>
+            <button type="submit" class="btn">إرسال</button>
+        </form>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2027</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
